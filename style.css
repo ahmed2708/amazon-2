@@ -1,0 +1,31 @@
+:root {
+  --ahmed: red ;
+}
+
+
+
+
+
+
+
+
+body {
+  background: rgb(150, 148, 148);
+}
+
+@media only screen and (min-width:300px) and (max-width:576px) {
+
+  body {
+    background: var(--ahmed);
+  }
+
+}
+
+input {
+  padding: 25px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: brown;
+  color: white;
+}
